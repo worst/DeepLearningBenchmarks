@@ -147,7 +147,7 @@ def run_SimpleCNN(batch_size):
             model.train_on_batch(X_batch, Y_batch)
         t1 = time()
 
-        print t1 - t0
+        print(t1 - t0)
 
     # Import backend to get version number
     if K.backend() == "tensorflow":
