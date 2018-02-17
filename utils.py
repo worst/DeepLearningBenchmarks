@@ -11,7 +11,7 @@ def print_module(string):
 def print_dict(d):
 
     init()
-    for k, v in d.iteritems():
+    for k, v in d.items():
         print(Style.BRIGHT + k + Style.RESET_ALL + ": %s" % v + Style.RESET_ALL)
 
 
